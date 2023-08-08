@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  dipti,
 } from "../assets";
 
 export const navLinks = [
@@ -73,10 +74,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -104,23 +101,16 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Schooling (Standard 1-10)",
+    company_name:
+      "Sarswati Shishu Vidya Mandir, Sankhachila ,Jajpur & Panchayat Hingula High Shool, Laxminagar, Jajpur",
+    icon: dipti,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2009 - April 2019",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +119,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Higher Secondary Schooling",
+    company_name: "KIIT Higher Secondary School ,Patia,BBSR",
+    icon: dipti,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2019 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,11 +132,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Graduation (UG)",
+    company_name: "Silicon Institute of Technology ,Patia,BBSR",
+    icon: dipti,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "April 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,42 +144,42 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: dipti,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Diptiranjan proved me wrong.",
+    name: "Anonymous",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Diptiranjan does.",
+    name: "Anonymous",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Diptiranjan optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Anonymous",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -198,51 +188,55 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Student Management System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A simple Student Management System with all CRUD Operations. Separate Admin and User Panel.Student can register here , can see their Dashboard and can modify their Details.Admin Can see all students details and can do necessary changes in there data and can delete it.",
     tags: [
       {
-        name: "react",
+        name: "JSP",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Servlet",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/I-Diptiranjan/student_management_system_advance_java",
+    live_link:
+      "https://github.com/I-Diptiranjan/student_management_system_advance_java",
   },
   {
-    name: "Job IT",
+    name: "Book My Stay",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "BookMyStay is an innovative Hotel reservation platform designed to simplify the booking process .Users can Create their account and book the hotel by filling the Form in the Website.After Booking they can see their booking status in the homepage itself.Admin can see all the booking records and can perform 3 operations like. Approve or Cancel the Booking or Remove the User",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "BootStrap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/I-Diptiranjan/Book_My_Stay",
+    live_link: "https://book-my-stay.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Golden Sparrow",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A stunning jewellery website GOLDEN SPARROW built with the power of MERN Stack.User centric Design.Seamless performance.Wide range of products.Category wise filter.Payment mode Integration (Razorpay).Good Authentication.Animated Sign up and Sign in Page.Invoice Page after Payment.Include a Chatbot to Interact with Users",
     tags: [
       {
         name: "nextjs",
@@ -258,7 +252,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/I-Diptiranjan/golden_sparrow",
+    live_link: "https://goldensparrow.netlify.app/",
   },
 ];
 

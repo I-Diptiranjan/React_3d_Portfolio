@@ -8,6 +8,7 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 import { SectionWrapper } from "../hoc";
+import CV from "../assets/CV-DIPTIRANJAN-SAHOO.pdf";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -42,11 +43,25 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officia
-        dolores distinctio quasi inventore rem harum, numquam nisi consectetur
-        veritatis non qui tempore accusantium eveniet animi illum, nesciunt nam
-        obcaecati nobis vero iste velit possimus quo? Debitis consequuntur
-        ducimus reiciendis.
+        <a
+          href={CV}
+          download={true}
+          className=" text-[18px] font-bold border rounded-xl p-2 text-white">
+          Download CV
+        </a>
+        <br />
+        <br />
+        I'm Diptiranjan, and I'm all about embracing the world of technology
+        with both hands. Currently, I'm diving headfirst into the world of
+        B.Tech studies, where algorithms and software architecture have become
+        my playground. There's something thrilling about untangling complex
+        technical concepts and turning them into practical solutions. But that's
+        not all - my alter ego comes alive when I put on my web developer hat.
+        Crafting websites isn't just a job for me; it's a passion. I take pride
+        in creating digital spaces that aren't just visually appealing, but
+        super functional too. Whether it's making sure the layout works
+        seamlessly on any device or experimenting with the latest tech trends,
+        I'm always up for the challenge.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
